@@ -1,0 +1,7 @@
+[user]
+        name = Dan Phiffer
+        email = dan@phiffer.org
+[push]
+        default = simple
+[core]
+        excludesfile = /Users/dphiffer/.gitignore
