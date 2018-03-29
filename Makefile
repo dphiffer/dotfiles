@@ -3,6 +3,7 @@ all:
 	@file=.gitconfig make symlink
 	@file=.gitignore make symlink
 	@file=.zshrc make symlink
+	@file=.atom/keymap.cson make symlink
 
 symlink:
 ifneq ("$(wildcard ~/$(file))","")
