@@ -1,3 +1,7 @@
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+NC='\033[0m'
+
 all:
 	@file=.emacs make symlink
 	@file=.gitconfig make symlink
@@ -7,8 +11,8 @@ all:
 
 symlink:
 ifneq ("$(wildcard ~/$(file))","")
-	@echo "~/$(file) exists"
+	@echo ${RED}"~/$(file) exists"${NC}
 else
-	@echo "~/$(file) => ~/dotfiles/$(file)"
+	@echo ${GREEN}"~/$(file) => ~/dotfiles/$(file)"${NC}
 	@ln -s ~/dotfiles/$(file) ~/$(file)
 endif
