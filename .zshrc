@@ -1,5 +1,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/dphiffer/.oh-my-zsh
+export PATH="/Users/dphiffer/Library/Python/2.7/bin:$PATH"
 
 alias beep='echo "\a"'
 alias s='git status'
