@@ -1,5 +1,5 @@
 local when="%{$fg[blue]%}[%{$fg[cyan]%}%D{%H:%M}%{$fg[blue]%}]"
-local where="%{$fg[green]%}%m%{$fg[blue]%}:%{$fg[yellow]%}%~%{$reset_color%}"
+local where="%{$fg[green]%}%m%{$fg[cyan]%}:%{$fg[yellow]%}%~%{$reset_color%}"
 PROMPT='${when} ${where} $(git_prompt_info)$ '
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[red]%}(%{$fg[magenta]%}"
