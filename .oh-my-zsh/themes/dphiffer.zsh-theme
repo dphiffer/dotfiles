@@ -1,5 +1,5 @@
 # %D{%M:%S} gives min:sec, useful for figuring out how long something ran
-local when="%{$fg[blue]%}[%{$fg[cyan]%}%D{%M:%S}%{$fg[blue]%}]"
+local when="%{$fg[blue]%}[%{$fg[cyan]%}%D{%H:%M:%S}%{$fg[blue]%}]"
 
 # %m is the hostname %~ is the path
 local where="%{$fg[green]%}%m%{$fg[cyan]%}:%{$fg[yellow]%}%~%{$reset_color%}"
