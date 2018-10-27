@@ -3,7 +3,7 @@ export ZSH=/Users/dphiffer/.oh-my-zsh
 export PATH="/Users/dphiffer/Library/Python/2.7/bin:$PATH"
 
 alias DONE="osascript -e 'display notification \"DONE\"'"
-alias please='sudo'
+alias plz='sudo'
 alias beep='echo "\a"'
 alias s='git status'
 alias a='git add -A'
