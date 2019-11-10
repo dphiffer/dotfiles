@@ -15,13 +15,6 @@ alias rb='git rebase'
 alias p='git pull --rebase origin'
 alias pu='git push'
 alias ta='git tag -a'
-alias unserialize='php -r "\$stdin = file_get_contents(\"php://stdin\"); print_r(unserialize(\$stdin));"'
-
-function mov2gif() {
-    name=`basename -s .mov $1`
-    echo "$1 => $name.gif"
-    ffmpeg -i "$1" -vf scale=980:-1 -pix_fmt rgb24 -r 10 -f gif - | gifsicle --optimize=2 --delay=6 > "$name.gif"
-}
 
 export EDITOR='emacs'
 
