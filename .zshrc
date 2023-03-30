@@ -1,6 +1,5 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/dphiffer/.oh-my-zsh
-export PATH="/usr/local/mysql/bin:$PATH"
 
 alias DONE="osascript -e 'display notification \"DONE\"'"
 alias plz='sudo'
@@ -100,3 +99,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+if [ -f ~/.zshrc.local ]; then
+    source ~/.zshrc.local
+fi
