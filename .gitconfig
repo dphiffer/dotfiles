@@ -1,7 +1,13 @@
 [user]
-        name = Dan Phiffer
-        email = dan@phiffer.org
+	name = Dan Phiffer
+	email = dan@phiffer.org
 [push]
         default = simple
+	autoSetupRemote = true
 [core]
         excludesfile = /Users/dphiffer/.gitignore
+	symlinks = false
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
