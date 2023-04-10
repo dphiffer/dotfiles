@@ -1,6 +1,9 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/dphiffer/.oh-my-zsh
 
+# Add Homebrew to the PATH
+export PATH="$PATH:/opt/homebrew/bin"
+
 alias DONE="osascript -e 'display notification \"DONE\"'"
 alias plz='sudo'
 alias beep='echo "\a"'
