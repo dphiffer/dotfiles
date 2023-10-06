@@ -7,7 +7,6 @@ all:
 	@file=.gitconfig make symlink
 	@file=.gitignore make symlink
 	@file=.zshrc make symlink
-	@file=.atom/keymap.cson make symlink
 	@file=.oh-my-zsh/themes/dphiffer.zsh-theme make symlink
 
 symlink:
