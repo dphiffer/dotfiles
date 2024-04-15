@@ -2,7 +2,7 @@
 export ZSH=/Users/dphiffer/.oh-my-zsh
 
 # Add Homebrew to the PATH
-export PATH="$PATH:/opt/homebrew/bin"
+export PATH="$PATH:/opt/homebrew/bin:/usr/local/sbin"
 
 alias DONE="osascript -e 'display notification \"DONE\"'"
 alias plz='sudo'
