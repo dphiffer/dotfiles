@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/dphiffer/.oh-my-zsh
+export ZSH="$HOME/.oh-my-zsh"
 
 # Add Homebrew to the PATH
 export PATH="$PATH:/opt/homebrew/bin:/usr/local/sbin"
@@ -106,3 +106,4 @@ source $ZSH/oh-my-zsh.sh
 if [ -f ~/.zshrc.local ]; then
     source ~/.zshrc.local
 fi
+
