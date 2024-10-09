@@ -1,8 +1,8 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/dphiffer/.oh-my-zsh
+export ZSH="$HOME/.oh-my-zsh"
 
 # Add Homebrew to the PATH
-export PATH="$PATH:/opt/homebrew/bin:$HOME/.local/bin"
+export PATH="$PATH:/usr/local/sbin:/opt/homebrew/bin:$HOME/.local/bin"
 
 alias DONE="osascript -e 'display notification \"DONE\"'"
 alias plz='sudo'
@@ -106,3 +106,4 @@ source $ZSH/oh-my-zsh.sh
 if [ -f ~/.zshrc.local ]; then
     source ~/.zshrc.local
 fi
+
