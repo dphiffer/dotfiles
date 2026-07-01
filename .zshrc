@@ -138,3 +138,14 @@ if [ -f ~/.zshrc.local ]; then
     source ~/.zshrc.local
 fi
 
+# pnpm
+export PNPM_HOME="/Users/dphiffer/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+
+transcribe() {
+    whisper "$1" --model large-v2 --language en --output_format txt
+}
